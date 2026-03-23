@@ -1,0 +1,51 @@
+
+body {
+    background-color: #85a9e0; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#titulo {
+    color: #07295c; 
+    text-align: center;
+    font-size: 28px;
+}
+
+.formulario-registro {
+    background-color: #ffffff;
+    padding: 30px; 
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #04012d;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#boton-enviar {
+    background-color: #1492b2; 
+    color: white;
+    padding: 12px;
+    border: none; 
+    border-radius: 6px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#boton-enviar:hover {
+    background-color: #123b79d9;
+}
